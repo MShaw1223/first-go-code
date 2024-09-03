@@ -20,5 +20,6 @@ func take_cli_input(){
 		fmt.Println("Error reading input:",err)
 		return
 	}
+    // instead of println as pln adds space between args; Print does not add a space between args
 	fmt.Print("Your name is ",input,", hi there ",input,"!\n")
 }
